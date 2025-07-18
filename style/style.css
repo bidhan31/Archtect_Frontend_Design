@@ -152,6 +152,7 @@ main > section{
 }
 .feature-card p{
     font-size: smaller;
+    font-weight: normal;
 }
 #experience-badge{
     padding: 45px 42px;
@@ -229,11 +230,13 @@ main > section{
 footer{
     background-color: rgba(255, 144, 14, 0.1);
     text-align: center;
-    margin-top: 100px;
-    
+    margin: 100px 230px 100px 230px;
+    border-radius: 10px;
     padding: 15px;
 
-    
+}
+footer .footer-tittle{
+    font-weight: normal;
 }
 
 /* responsive media query */
